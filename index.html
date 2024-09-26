@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
+.w3-sidebar {
+  z-index: 3;
+  width: 250px;
+  top: 43px;
+  bottom: 0;
+  height: inherit;
+}
+</style>
+</head>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-theme w3-top w3-left-align w3-large">
+    <a class="w3-bar-item w3-button w3-right w3-hide-large w3-hover-white w3-large w3-theme-l1" href="javascript:void(0)" onclick="w3_open()"><i class="fa fa-bars"></i></a>
+    <a href="#" class="w3-bar-item w3-button w3-theme-l1">Logo</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-hover-white">About</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Values</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-hover-white">News</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Contact</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-hide-medium w3-hover-white">Clients</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-hide-medium w3-hover-white">Partners</a>
+  </div>
+</div>
+
+<!-- Sidebar -->
+<nav class="w3-sidebar w3-bar-block w3-collapse w3-large w3-theme-l5 w3-animate-left" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-right w3-xlarge w3-padding-large w3-hover-black w3-hide-large" title="Close Menu">
+    <i class="fa fa-remove"></i>
+  </a>
+  <h4 class="w3-bar-item"><b>Menu</b></h4>
+  <a class="w3-bar-item w3-button w3-hover-black" href="#">Link</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="#">Link</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="#">Link</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="#">Link</a>
+</nav>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- Main content: shift it to the right by 250 pixels when the sidebar is visible -->
+
+
+  <div class="w3-row w3-padding-64">
+    <div class="w3-container">
+    <h2>法语初学者词汇课程</h2>
+    <p>点击下面的按钮播放音频：</p>
+    
+    <audio controls>
+        <source src="https://www.elearningfrench.com/audio/french-for%20beginners-vocabulary-lesson-1.mp3" type="audio/mpeg">
+        您的浏览器不支持音频元素。
+    </audio>
+</div>
+
+
+  <div class="w3-row w3-padding-64">
+    <div class="w3-twothird w3-container">
+      
+      <table class="w3-table w3-bordered w3-striped">
+        <thead>
+            <tr class="w3-light-grey">
+                <th>法语</th>
+                <th>音标</th>
+                <th>中文</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>dans la rue</td>
+                <td>dɑ̃ la ʁy</td>
+                <td>在街上</td>
+            </tr>
+            <tr>
+                <td>la rue</td>
+                <td>la ʁy</td>
+                <td>街道</td>
+            </tr>
+            <tr>
+                <td>dans</td>
+                <td>dɑ̃</td>
+                <td>在</td>
+            </tr>
+            <tr>
+                <td>faire</td>
+                <td>fɛʁ</td>
+                <td>做</td>
+            </tr>
+            <tr>
+                <td>Comment allez-vous?</td>
+                <td>kɔmɑ̃ ale vuz</td>
+                <td>您好吗？</td>
+            </tr>
+            <tr>
+                <td>comment</td>
+                <td>kɔmɑ̃</td>
+                <td>怎么</td>
+            </tr>
+            <tr>
+                <td>très bien</td>
+                <td>tʁɛ bjɛ̃</td>
+                <td>非常好</td>
+            </tr>
+            <tr>
+                <td>bien</td>
+                <td>bjɛ̃</td>
+                <td>好</td>
+            </tr>
+            <tr>
+                <td>très</td>
+                <td>tʁɛ</td>
+                <td>非常</td>
+            </tr>
+            <tr>
+                <td>très heureux</td>
+                <td>tʁɛ zœʁø</td>
+                <td>非常高兴</td>
+            </tr>
+            <tr>
+                <td>très pressé</td>
+                <td>tʁɛ pʁese</td>
+                <td>非常着急</td>
+            </tr>
+            <tr>
+                <td>très en retard</td>
+                <td>tʁɛ ɑ̃ ʁətaʁ</td>
+                <td>非常迟到</td>
+            </tr>
+            <tr>
+                <td>plus fort</td>
+                <td>ply fɔʁ</td>
+                <td>更大声</td>
+            </tr>
+            <tr>
+                <td>très fort</td>
+                <td>tʁɛ fɔʁ</td>
+                <td>非常大声</td>
+            </tr>
+            <tr>
+                <td>maintenant</td>
+                <td>mɛtnɑ̃</td>
+                <td>现在</td>
+            </tr>
+            <tr>
+                <td>à quelle heure</td>
+                <td>a kɛl œʁ</td>
+                <td>几点钟</td>
+            </tr>
+            <tr>
+                <td>quelle heure</td>
+                <td>kɛl œʁ</td>
+                <td>几点</td>
+            </tr>
+            <tr>
+                <td>quelle</td>
+                <td>kɛl</td>
+                <td>哪个</td>
+            </tr>
+            <tr>
+                <td>une heure</td>
+                <td>yn œʁ</td>
+                <td>一个小时</td>
+            </tr>
+            <tr>
+                <td>à une heure</td>
+                <td>a yn œʁ</td>
+                <td>在一个小时后</td>
+            </tr>
+            <tr>
+                <td>toujours</td>
+                <td>tuʒuʁ</td>
+                <td>总是</td>
+            </tr>
+            <tr>
+                <td>toujours en retard</td>
+                <td>tuʒuʁ ɑ̃ ʁətaʁ</td>
+                <td>总是迟到</td>
+            </tr>
+            <tr>
+                <td>encore une fois</td>
+                <td>ɑ̃kɔʁ yn fwa</td>
+                <td>再一次</td>
+            </tr>
+            <tr>
+                <td>une fois</td>
+                <td>yn fwa</td>
+                <td>一次</td>
+            </tr>
+            <tr>
+                <td>encore</td>
+                <td>ɑ̃kɔʁ</td>
+                <td>再</td>
+            </tr>
+            <tr>
+                <td>en vacances</td>
+                <td>ɑ̃ vakɑ̃s</td>
+                <td>在度假</td>
+            </tr>
+            <tr>
+                <td>près d'ici</td>
+                <td>pʁɛ di si</td>
+                <td>在这里附近</td>
+            </tr>
+            <tr>
+                <td>près</td>
+                <td>pʁɛ</td>
+                <td>附近</td>
+            </tr>
+            <tr>
+                <td>ici</td>
+                <td>isi</td>
+                <td>这里</td>
+            </tr>
+            <tr>
+                <td>toujours ici</td>
+                <td>tuʒuʁ isi</td>
+                <td>总是在这里</td>
+            </tr>
+            <tr>
+                <td>à bientôt</td>
+                <td>a bjɛ̃to</td>
+                <td>再见</td>
+            </tr>
+            <tr>
+                <td>votre frère</td>
+                <td>vɔtʁ fʁɛʁ</td>
+                <td>您的兄弟</td>
+            </tr>
+            <tr>
+                <td>votre connaissance</td>
+                <td>vɔtʁ kɔnɛsɑ̃s</td>
+                <td>您的朋友</td>
+            </tr>
+            <tr>
+                <td>votre</td>
+                <td>vɔtʁ</td>
+                <td>您的</td>
+            </tr>
+            <tr>
+                <td>votre femme</td>
+                <td>vɔtʁ fam</td>
+                <td>您的妻子</td>
+            </tr>
+            <tr>
+                <td>votre fille</td>
+                <td>vɔtʁ fij</td>
+                <td>您的女儿</td>
+            </tr>
+            <tr>
+                <td>votre mère</td>
+                <td>vɔtʁ mɛʁ</td>
+                <td>您的母亲</td>
+            </tr>
+            <tr>
+                <td>votre nom</td>
+                <td>vɔtʁ nɔ̃</td>
+                <td>您的名字</td>
+            </tr>
+            <tr>
+                <td>vos parents</td>
+                <td>vo paʁɑ̃</td>
+                <td>您的父母</td>
+            </tr>
+            <tr>
+                <td>vos</td>
+                <td>vo</td>
+                <td>您的（复数）</td>
+            </tr>
+            <tr>
+                <td>vos frères</td>
+                <td>vo fʁɛʁ</td>
+                <td>您的兄弟们</td>
+            </tr>
+            <tr>
+                <td>Sont-ils en vacances?</td>
+                <td>sɔ̃ til ɑ̃ vakɑ̃s?</td>
+                <td>他们在度假吗？</td>
+            </tr>
+            <tr>
+                <td>Où sont-ils?</td>
+                <td>u sɔ̃ til?</td>
+                <td>他们在哪里？</td>
+            </tr>
+            <tr>
+                <td>Sont-ils ici?</td>
+                <td>sɔ̃ til isi?</td>
+                <td>他们在这里吗？</td>
+            </tr>
+            <tr>
+                <td>Sont-ils toujours ici?</td>
+                <td>sɔ̃ til tuʒuʁ isi?</td>
+                <td>他们总是在这里吗？</td>
+            </tr>
+            <tr>
+                <td>Sont-ils pressés?</td>
+                <td>sɔ̃ til pʁese?</td>
+                <td>他们着急吗？</td>
+            </tr>
+            <tr>
+                <td>avec eux</td>
+                <td>avɛk ø</td>
+                <td>和他们一起</td>
+            </tr>
+            <tr>
+                <td>avec</td>
+                <td>avɛk</td>
+                <td>和</td>
+            </tr>
+            <tr>
+                <td>avec ma soeur</td>
+                <td>avɛk ma sœʁ</td>
+                <td>和我姐姐一起</td>
+            </tr>
+            <tr>
+                <td>avec ma mère</td>
+                <td>avɛk ma mɛʁ</td>
+                <td>和我母亲一起</td>
+            </tr>
+            <tr>
+                <td>avec Janine</td>
+                <td>avɛk ʒanɪn</td>
+                <td>和贾宁一起</td>
+            </tr>
+        </tbody>
+    </table>
+      
+      
+      
+      
+      
+    </div>
+    <div class="w3-third w3-container">
+      <p class="w3-border w3-padding-large w3-padding-32 w3-center">AD</p>
+      <p class="w3-border w3-padding-large w3-padding-64 w3-center">AD</p>
+    </div>
+  </div>
+
+  <!-- Pagination -->
+  <div class="w3-center w3-padding-32">
+    <div class="w3-bar">
+      <a class="w3-button w3-black" href="#">1</a>
+      <a class="w3-button w3-hover-black" href="#">2</a>
+      <a class="w3-button w3-hover-black" href="#">3</a>
+      <a class="w3-button w3-hover-black" href="#">4</a>
+      <a class="w3-button w3-hover-black" href="#">5</a>
+      <a class="w3-button w3-hover-black" href="#">»</a>
+    </div>
+  </div>
+
+  <footer id="myFooter">
+    <div class="w3-container w3-theme-l2 w3-padding-32">
+      <h4>Footer</h4>
+    </div>
+
+    <div class="w3-container w3-theme-l1">
+      <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+    </div>
+  </footer>
+
+<!-- END MAIN -->
+</div>
+
+<script>
+// Get the Sidebar
+var mySidebar = document.getElementById("mySidebar");
+
+// Get the DIV with overlay effect
+var overlayBg = document.getElementById("myOverlay");
+
+// Toggle between showing and hiding the sidebar, and add overlay effect
+function w3_open() {
+  if (mySidebar.style.display === 'block') {
+    mySidebar.style.display = 'none';
+    overlayBg.style.display = "none";
+  } else {
+    mySidebar.style.display = 'block';
+    overlayBg.style.display = "block";
+  }
+}
+
+// Close the sidebar with the close button
+function w3_close() {
+  mySidebar.style.display = "none";
+  overlayBg.style.display = "none";
+}
+</script>
+
+</body>
+</html>
